@@ -5,7 +5,7 @@ import plotly.express as px
 
 @st.cache_data
 def load_data():
-    fb = pd.read_csv("data/facebook.csv")
+    fb = pd.read_csv("data/Facebook.csv")
     google = pd.read_csv("data/Google.csv")
     tiktok = pd.read_csv("data/TikTok.csv")
     business = pd.read_csv("data/Business.csv")
