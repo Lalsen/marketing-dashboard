@@ -8,7 +8,7 @@ def load_data():
     fb = pd.read_csv("data/Facebook.csv")
     google = pd.read_csv("data/Google.csv")
     tiktok = pd.read_csv("data/TikTok.csv")
-    business = pd.read_csv("data/Business.csv")
+    business = pd.read_csv("data/business.csv")
 
     fb["channel"] = "Facebook"
     google["channel"] = "Google"
